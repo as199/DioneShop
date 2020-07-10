@@ -1,0 +1,1274 @@
+{
+    "SourceFileNode": {
+        "statementList": [
+            {
+                "InlineHtml": {
+                    "scriptSectionEndTag": null,
+                    "text": null,
+                    "scriptSectionStartTag": {
+                        "kind": "ScriptSectionStartTag",
+                        "fullStart": 0,
+                        "start": 0,
+                        "length": 7
+                    }
+                }
+            },
+            {
+                "NamespaceDefinition": {
+                    "namespaceKeyword": {
+                        "kind": "NamespaceKeyword",
+                        "fullStart": 7,
+                        "start": 9,
+                        "length": 11
+                    },
+                    "name": {
+                        "QualifiedName": {
+                            "globalSpecifier": null,
+                            "relativeSpecifier": null,
+                            "nameParts": {
+                                "QualifiedNameParts": {
+                                    "children": [
+                                        {
+                                            "kind": "Name",
+                                            "fullStart": 18,
+                                            "start": 19,
+                                            "length": 4
+                                        },
+                                        {
+                                            "kind": "BackslashToken",
+                                            "fullStart": 22,
+                                            "start": 22,
+                                            "length": 1
+                                        },
+                                        {
+                                            "kind": "Name",
+                                            "fullStart": 23,
+                                            "start": 23,
+                                            "length": 10
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    "compoundStatementOrSemicolon": {
+                        "kind": "SemicolonToken",
+                        "fullStart": 33,
+                        "start": 33,
+                        "length": 1
+                    }
+                }
+            },
+            {
+                "NamespaceUseDeclaration": {
+                    "useKeyword": {
+                        "kind": "UseKeyword",
+                        "fullStart": 34,
+                        "start": 40,
+                        "length": 9
+                    },
+                    "functionOrConst": null,
+                    "namespaceName": {
+                        "QualifiedName": {
+                            "globalSpecifier": null,
+                            "relativeSpecifier": null,
+                            "nameParts": {
+                                "QualifiedNameParts": {
+                                    "children": [
+                                        {
+                                            "kind": "Name",
+                                            "fullStart": 43,
+                                            "start": 44,
+                                            "length": 4
+                                        },
+                                        {
+                                            "kind": "BackslashToken",
+                                            "fullStart": 47,
+                                            "start": 47,
+                                            "length": 1
+                                        },
+                                        {
+                                            "kind": "Name",
+                                            "fullStart": 48,
+                                            "start": 48,
+                                            "length": 7
+                                        },
+                                        {
+                                            "kind": "BackslashToken",
+                                            "fullStart": 55,
+                                            "start": 55,
+                                            "length": 1
+                                        },
+                                        {
+                                            "kind": "Name",
+                                            "fullStart": 56,
+                                            "start": 56,
+                                            "length": 11
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    "namespaceAliasingClause": null,
+                    "openBrace": null,
+                    "groupClauses": null,
+                    "closeBrace": null,
+                    "semicolon": {
+                        "kind": "SemicolonToken",
+                        "fullStart": 67,
+                        "start": 67,
+                        "length": 1
+                    }
+                }
+            },
+            {
+                "NamespaceUseDeclaration": {
+                    "useKeyword": {
+                        "kind": "UseKeyword",
+                        "fullStart": 68,
+                        "start": 70,
+                        "length": 5
+                    },
+                    "functionOrConst": null,
+                    "namespaceName": {
+                        "QualifiedName": {
+                            "globalSpecifier": null,
+                            "relativeSpecifier": null,
+                            "nameParts": {
+                                "QualifiedNameParts": {
+                                    "children": [
+                                        {
+                                            "kind": "Name",
+                                            "fullStart": 73,
+                                            "start": 74,
+                                            "length": 8
+                                        },
+                                        {
+                                            "kind": "BackslashToken",
+                                            "fullStart": 81,
+                                            "start": 81,
+                                            "length": 1
+                                        },
+                                        {
+                                            "kind": "Name",
+                                            "fullStart": 82,
+                                            "start": 82,
+                                            "length": 6
+                                        },
+                                        {
+                                            "kind": "BackslashToken",
+                                            "fullStart": 88,
+                                            "start": 88,
+                                            "length": 1
+                                        },
+                                        {
+                                            "kind": "Name",
+                                            "fullStart": 89,
+                                            "start": 89,
+                                            "length": 15
+                                        },
+                                        {
+                                            "kind": "BackslashToken",
+                                            "fullStart": 104,
+                                            "start": 104,
+                                            "length": 1
+                                        },
+                                        {
+                                            "kind": "Name",
+                                            "fullStart": 105,
+                                            "start": 105,
+                                            "length": 10
+                                        },
+                                        {
+                                            "kind": "BackslashToken",
+                                            "fullStart": 115,
+                                            "start": 115,
+                                            "length": 1
+                                        },
+                                        {
+                                            "kind": "Name",
+                                            "fullStart": 116,
+                                            "start": 116,
+                                            "length": 18
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    "namespaceAliasingClause": null,
+                    "openBrace": null,
+                    "groupClauses": null,
+                    "closeBrace": null,
+                    "semicolon": {
+                        "kind": "SemicolonToken",
+                        "fullStart": 134,
+                        "start": 134,
+                        "length": 1
+                    }
+                }
+            },
+            {
+                "NamespaceUseDeclaration": {
+                    "useKeyword": {
+                        "kind": "UseKeyword",
+                        "fullStart": 135,
+                        "start": 137,
+                        "length": 5
+                    },
+                    "functionOrConst": null,
+                    "namespaceName": {
+                        "QualifiedName": {
+                            "globalSpecifier": null,
+                            "relativeSpecifier": null,
+                            "nameParts": {
+                                "QualifiedNameParts": {
+                                    "children": [
+                                        {
+                                            "kind": "Name",
+                                            "fullStart": 140,
+                                            "start": 141,
+                                            "length": 8
+                                        },
+                                        {
+                                            "kind": "BackslashToken",
+                                            "fullStart": 148,
+                                            "start": 148,
+                                            "length": 1
+                                        },
+                                        {
+                                            "kind": "Name",
+                                            "fullStart": 149,
+                                            "start": 149,
+                                            "length": 9
+                                        },
+                                        {
+                                            "kind": "BackslashToken",
+                                            "fullStart": 158,
+                                            "start": 158,
+                                            "length": 1
+                                        },
+                                        {
+                                            "kind": "Name",
+                                            "fullStart": 159,
+                                            "start": 159,
+                                            "length": 7
+                                        },
+                                        {
+                                            "kind": "BackslashToken",
+                                            "fullStart": 166,
+                                            "start": 166,
+                                            "length": 1
+                                        },
+                                        {
+                                            "kind": "Name",
+                                            "fullStart": 167,
+                                            "start": 167,
+                                            "length": 10
+                                        },
+                                        {
+                                            "kind": "BackslashToken",
+                                            "fullStart": 177,
+                                            "start": 177,
+                                            "length": 1
+                                        },
+                                        {
+                                            "kind": "Name",
+                                            "fullStart": 178,
+                                            "start": 178,
+                                            "length": 5
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    "namespaceAliasingClause": null,
+                    "openBrace": null,
+                    "groupClauses": null,
+                    "closeBrace": null,
+                    "semicolon": {
+                        "kind": "SemicolonToken",
+                        "fullStart": 183,
+                        "start": 183,
+                        "length": 1
+                    }
+                }
+            },
+            {
+                "ClassDeclaration": {
+                    "abstractOrFinalModifier": null,
+                    "classKeyword": {
+                        "kind": "ClassKeyword",
+                        "fullStart": 184,
+                        "start": 188,
+                        "length": 9
+                    },
+                    "name": {
+                        "kind": "Name",
+                        "fullStart": 193,
+                        "start": 194,
+                        "length": 15
+                    },
+                    "classBaseClause": {
+                        "ClassBaseClause": {
+                            "extendsKeyword": {
+                                "kind": "ExtendsKeyword",
+                                "fullStart": 208,
+                                "start": 209,
+                                "length": 8
+                            },
+                            "baseClass": {
+                                "QualifiedName": {
+                                    "globalSpecifier": null,
+                                    "relativeSpecifier": null,
+                                    "nameParts": {
+                                        "QualifiedNameParts": {
+                                            "children": [
+                                                {
+                                                    "kind": "Name",
+                                                    "fullStart": 216,
+                                                    "start": 217,
+                                                    "length": 19
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "classInterfaceClause": null,
+                    "classMembers": {
+                        "ClassMembersNode": {
+                            "openBrace": {
+                                "kind": "OpenBraceToken",
+                                "fullStart": 235,
+                                "start": 237,
+                                "length": 3
+                            },
+                            "classMemberDeclarations": [
+                                {
+                                    "MethodDeclaration": {
+                                        "modifiers": [
+                                            {
+                                                "kind": "PublicKeyword",
+                                                "fullStart": 238,
+                                                "start": 307,
+                                                "length": 75
+                                            }
+                                        ],
+                                        "functionKeyword": {
+                                            "kind": "FunctionKeyword",
+                                            "fullStart": 313,
+                                            "start": 314,
+                                            "length": 9
+                                        },
+                                        "byRefToken": null,
+                                        "name": {
+                                            "kind": "Name",
+                                            "fullStart": 322,
+                                            "start": 323,
+                                            "length": 6
+                                        },
+                                        "openParen": {
+                                            "kind": "OpenParenToken",
+                                            "fullStart": 328,
+                                            "start": 328,
+                                            "length": 1
+                                        },
+                                        "parameters": {
+                                            "ParameterDeclarationList": {
+                                                "children": [
+                                                    {
+                                                        "Parameter": {
+                                                            "typeDeclaration": {
+                                                                "QualifiedName": {
+                                                                    "globalSpecifier": null,
+                                                                    "relativeSpecifier": null,
+                                                                    "nameParts": {
+                                                                        "QualifiedNameParts": {
+                                                                            "children": [
+                                                                                {
+                                                                                    "kind": "Name",
+                                                                                    "fullStart": 329,
+                                                                                    "start": 329,
+                                                                                    "length": 11
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    }
+                                                                }
+                                                            },
+                                                            "byRefToken": null,
+                                                            "dotDotDotToken": null,
+                                                            "variableName": {
+                                                                "kind": "VariableName",
+                                                                "fullStart": 340,
+                                                                "start": 341,
+                                                                "length": 13
+                                                            },
+                                                            "equalsToken": null,
+                                                            "default": null
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        "closeParen": {
+                                            "kind": "CloseParenToken",
+                                            "fullStart": 353,
+                                            "start": 353,
+                                            "length": 1
+                                        },
+                                        "colonToken": null,
+                                        "returnType": null,
+                                        "compoundStatementOrSemicolon": {
+                                            "CompoundStatementNode": {
+                                                "openBrace": {
+                                                    "kind": "OpenBraceToken",
+                                                    "fullStart": 354,
+                                                    "start": 360,
+                                                    "length": 7
+                                                },
+                                                "statements": [
+                                                    {
+                                                        "ReturnStatement": {
+                                                            "returnKeyword": {
+                                                                "kind": "ReturnKeyword",
+                                                                "fullStart": 361,
+                                                                "start": 373,
+                                                                "length": 18
+                                                            },
+                                                            "expression": {
+                                                                "CallExpression": {
+                                                                    "callableExpression": {
+                                                                        "MemberAccessExpression": {
+                                                                            "dereferencableExpression": {
+                                                                                "Variable": {
+                                                                                    "dollar": null,
+                                                                                    "name": {
+                                                                                        "kind": "VariableName",
+                                                                                        "fullStart": 379,
+                                                                                        "start": 380,
+                                                                                        "length": 6
+                                                                                    }
+                                                                                }
+                                                                            },
+                                                                            "arrowToken": {
+                                                                                "kind": "ArrowToken",
+                                                                                "fullStart": 385,
+                                                                                "start": 385,
+                                                                                "length": 2
+                                                                            },
+                                                                            "memberName": {
+                                                                                "kind": "Name",
+                                                                                "fullStart": 387,
+                                                                                "start": 387,
+                                                                                "length": 6
+                                                                            }
+                                                                        }
+                                                                    },
+                                                                    "openParen": {
+                                                                        "kind": "OpenParenToken",
+                                                                        "fullStart": 393,
+                                                                        "start": 393,
+                                                                        "length": 1
+                                                                    },
+                                                                    "argumentExpressionList": {
+                                                                        "ArgumentExpressionList": {
+                                                                            "children": [
+                                                                                {
+                                                                                    "ArgumentExpression": {
+                                                                                        "byRefToken": null,
+                                                                                        "dotDotDotToken": null,
+                                                                                        "expression": {
+                                                                                            "StringLiteral": {
+                                                                                                "startQuote": null,
+                                                                                                "children": {
+                                                                                                    "kind": "StringLiteralToken",
+                                                                                                    "fullStart": 394,
+                                                                                                    "start": 394,
+                                                                                                    "length": 22
+                                                                                                },
+                                                                                                "endQuote": null
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                },
+                                                                                {
+                                                                                    "kind": "CommaToken",
+                                                                                    "fullStart": 416,
+                                                                                    "start": 416,
+                                                                                    "length": 1
+                                                                                },
+                                                                                {
+                                                                                    "ArgumentExpression": {
+                                                                                        "byRefToken": null,
+                                                                                        "dotDotDotToken": null,
+                                                                                        "expression": {
+                                                                                            "ArrayCreationExpression": {
+                                                                                                "arrayKeyword": null,
+                                                                                                "openParenOrBracket": {
+                                                                                                    "kind": "OpenBracketToken",
+                                                                                                    "fullStart": 417,
+                                                                                                    "start": 418,
+                                                                                                    "length": 2
+                                                                                                },
+                                                                                                "arrayElements": {
+                                                                                                    "ArrayElementList": {
+                                                                                                        "children": [
+                                                                                                            {
+                                                                                                                "ArrayElement": {
+                                                                                                                    "elementKey": {
+                                                                                                                        "StringLiteral": {
+                                                                                                                            "startQuote": null,
+                                                                                                                            "children": {
+                                                                                                                                "kind": "StringLiteralToken",
+                                                                                                                                "fullStart": 419,
+                                                                                                                                "start": 433,
+                                                                                                                                "length": 23
+                                                                                                                            },
+                                                                                                                            "endQuote": null
+                                                                                                                        }
+                                                                                                                    },
+                                                                                                                    "arrowToken": {
+                                                                                                                        "kind": "DoubleArrowToken",
+                                                                                                                        "fullStart": 442,
+                                                                                                                        "start": 443,
+                                                                                                                        "length": 3
+                                                                                                                    },
+                                                                                                                    "byRef": null,
+                                                                                                                    "elementValue": {
+                                                                                                                        "CallExpression": {
+                                                                                                                            "callableExpression": {
+                                                                                                                                "MemberAccessExpression": {
+                                                                                                                                    "dereferencableExpression": {
+                                                                                                                                        "Variable": {
+                                                                                                                                            "dollar": null,
+                                                                                                                                            "name": {
+                                                                                                                                                "kind": "VariableName",
+                                                                                                                                                "fullStart": 445,
+                                                                                                                                                "start": 447,
+                                                                                                                                                "length": 14
+                                                                                                                                            }
+                                                                                                                                        }
+                                                                                                                                    },
+                                                                                                                                    "arrowToken": {
+                                                                                                                                        "kind": "ArrowToken",
+                                                                                                                                        "fullStart": 459,
+                                                                                                                                        "start": 459,
+                                                                                                                                        "length": 2
+                                                                                                                                    },
+                                                                                                                                    "memberName": {
+                                                                                                                                        "kind": "Name",
+                                                                                                                                        "fullStart": 461,
+                                                                                                                                        "start": 461,
+                                                                                                                                        "length": 12
+                                                                                                                                    }
+                                                                                                                                }
+                                                                                                                            },
+                                                                                                                            "openParen": {
+                                                                                                                                "kind": "OpenParenToken",
+                                                                                                                                "fullStart": 473,
+                                                                                                                                "start": 473,
+                                                                                                                                "length": 1
+                                                                                                                            },
+                                                                                                                            "argumentExpressionList": null,
+                                                                                                                            "closeParen": {
+                                                                                                                                "kind": "CloseParenToken",
+                                                                                                                                "fullStart": 474,
+                                                                                                                                "start": 474,
+                                                                                                                                "length": 1
+                                                                                                                            }
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                                }
+                                                                                                            },
+                                                                                                            {
+                                                                                                                "kind": "CommaToken",
+                                                                                                                "fullStart": 475,
+                                                                                                                "start": 475,
+                                                                                                                "length": 1
+                                                                                                            },
+                                                                                                            {
+                                                                                                                "ArrayElement": {
+                                                                                                                    "elementKey": {
+                                                                                                                        "StringLiteral": {
+                                                                                                                            "startQuote": null,
+                                                                                                                            "children": {
+                                                                                                                                "kind": "StringLiteralToken",
+                                                                                                                                "fullStart": 476,
+                                                                                                                                "start": 490,
+                                                                                                                                "length": 21
+                                                                                                                            },
+                                                                                                                            "endQuote": null
+                                                                                                                        }
+                                                                                                                    },
+                                                                                                                    "arrowToken": {
+                                                                                                                        "kind": "DoubleArrowToken",
+                                                                                                                        "fullStart": 497,
+                                                                                                                        "start": 498,
+                                                                                                                        "length": 3
+                                                                                                                    },
+                                                                                                                    "byRef": null,
+                                                                                                                    "elementValue": {
+                                                                                                                        "CallExpression": {
+                                                                                                                            "callableExpression": {
+                                                                                                                                "MemberAccessExpression": {
+                                                                                                                                    "dereferencableExpression": {
+                                                                                                                                        "Variable": {
+                                                                                                                                            "dollar": null,
+                                                                                                                                            "name": {
+                                                                                                                                                "kind": "VariableName",
+                                                                                                                                                "fullStart": 500,
+                                                                                                                                                "start": 502,
+                                                                                                                                                "length": 14
+                                                                                                                                            }
+                                                                                                                                        }
+                                                                                                                                    },
+                                                                                                                                    "arrowToken": {
+                                                                                                                                        "kind": "ArrowToken",
+                                                                                                                                        "fullStart": 514,
+                                                                                                                                        "start": 514,
+                                                                                                                                        "length": 2
+                                                                                                                                    },
+                                                                                                                                    "memberName": {
+                                                                                                                                        "kind": "Name",
+                                                                                                                                        "fullStart": 516,
+                                                                                                                                        "start": 516,
+                                                                                                                                        "length": 5
+                                                                                                                                    }
+                                                                                                                                }
+                                                                                                                            },
+                                                                                                                            "openParen": {
+                                                                                                                                "kind": "OpenParenToken",
+                                                                                                                                "fullStart": 521,
+                                                                                                                                "start": 521,
+                                                                                                                                "length": 1
+                                                                                                                            },
+                                                                                                                            "argumentExpressionList": null,
+                                                                                                                            "closeParen": {
+                                                                                                                                "kind": "CloseParenToken",
+                                                                                                                                "fullStart": 522,
+                                                                                                                                "start": 522,
+                                                                                                                                "length": 1
+                                                                                                                            }
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                                }
+                                                                                                            }
+                                                                                                        ]
+                                                                                                    }
+                                                                                                },
+                                                                                                "closeParenOrBracket": {
+                                                                                                    "kind": "CloseBracketToken",
+                                                                                                    "fullStart": 523,
+                                                                                                    "start": 533,
+                                                                                                    "length": 11
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    },
+                                                                    "closeParen": {
+                                                                        "kind": "CloseParenToken",
+                                                                        "fullStart": 534,
+                                                                        "start": 534,
+                                                                        "length": 1
+                                                                    }
+                                                                }
+                                                            },
+                                                            "semicolon": {
+                                                                "kind": "SemicolonToken",
+                                                                "fullStart": 535,
+                                                                "start": 535,
+                                                                "length": 1
+                                                            }
+                                                        }
+                                                    }
+                                                ],
+                                                "closeBrace": {
+                                                    "kind": "CloseBraceToken",
+                                                    "fullStart": 536,
+                                                    "start": 542,
+                                                    "length": 7
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "MethodDeclaration": {
+                                        "modifiers": [
+                                            {
+                                                "kind": "PublicKeyword",
+                                                "fullStart": 543,
+                                                "start": 619,
+                                                "length": 82
+                                            }
+                                        ],
+                                        "functionKeyword": {
+                                            "kind": "FunctionKeyword",
+                                            "fullStart": 625,
+                                            "start": 626,
+                                            "length": 9
+                                        },
+                                        "byRefToken": null,
+                                        "name": {
+                                            "kind": "Name",
+                                            "fullStart": 634,
+                                            "start": 635,
+                                            "length": 4
+                                        },
+                                        "openParen": {
+                                            "kind": "OpenParenToken",
+                                            "fullStart": 638,
+                                            "start": 638,
+                                            "length": 1
+                                        },
+                                        "parameters": {
+                                            "ParameterDeclarationList": {
+                                                "children": [
+                                                    {
+                                                        "Parameter": {
+                                                            "typeDeclaration": null,
+                                                            "byRefToken": null,
+                                                            "dotDotDotToken": null,
+                                                            "variableName": {
+                                                                "kind": "VariableName",
+                                                                "fullStart": 639,
+                                                                "start": 639,
+                                                                "length": 3
+                                                            },
+                                                            "equalsToken": null,
+                                                            "default": null
+                                                        }
+                                                    },
+                                                    {
+                                                        "kind": "CommaToken",
+                                                        "fullStart": 642,
+                                                        "start": 642,
+                                                        "length": 1
+                                                    },
+                                                    {
+                                                        "Parameter": {
+                                                            "typeDeclaration": {
+                                                                "QualifiedName": {
+                                                                    "globalSpecifier": null,
+                                                                    "relativeSpecifier": null,
+                                                                    "nameParts": {
+                                                                        "QualifiedNameParts": {
+                                                                            "children": [
+                                                                                {
+                                                                                    "kind": "Name",
+                                                                                    "fullStart": 643,
+                                                                                    "start": 644,
+                                                                                    "length": 12
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    }
+                                                                }
+                                                            },
+                                                            "byRefToken": null,
+                                                            "dotDotDotToken": null,
+                                                            "variableName": {
+                                                                "kind": "VariableName",
+                                                                "fullStart": 655,
+                                                                "start": 656,
+                                                                "length": 13
+                                                            },
+                                                            "equalsToken": null,
+                                                            "default": null
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        "closeParen": {
+                                            "kind": "CloseParenToken",
+                                            "fullStart": 668,
+                                            "start": 668,
+                                            "length": 1
+                                        },
+                                        "colonToken": null,
+                                        "returnType": null,
+                                        "compoundStatementOrSemicolon": {
+                                            "CompoundStatementNode": {
+                                                "openBrace": {
+                                                    "kind": "OpenBraceToken",
+                                                    "fullStart": 669,
+                                                    "start": 675,
+                                                    "length": 7
+                                                },
+                                                "statements": [
+                                                    {
+                                                        "ExpressionStatement": {
+                                                            "expression": {
+                                                                "CallExpression": {
+                                                                    "callableExpression": {
+                                                                        "MemberAccessExpression": {
+                                                                            "dereferencableExpression": {
+                                                                                "Variable": {
+                                                                                    "dollar": null,
+                                                                                    "name": {
+                                                                                        "kind": "VariableName",
+                                                                                        "fullStart": 676,
+                                                                                        "start": 686,
+                                                                                        "length": 22
+                                                                                    }
+                                                                                }
+                                                                            },
+                                                                            "arrowToken": {
+                                                                                "kind": "ArrowToken",
+                                                                                "fullStart": 698,
+                                                                                "start": 698,
+                                                                                "length": 2
+                                                                            },
+                                                                            "memberName": {
+                                                                                "kind": "Name",
+                                                                                "fullStart": 700,
+                                                                                "start": 700,
+                                                                                "length": 3
+                                                                            }
+                                                                        }
+                                                                    },
+                                                                    "openParen": {
+                                                                        "kind": "OpenParenToken",
+                                                                        "fullStart": 703,
+                                                                        "start": 703,
+                                                                        "length": 1
+                                                                    },
+                                                                    "argumentExpressionList": {
+                                                                        "ArgumentExpressionList": {
+                                                                            "children": [
+                                                                                {
+                                                                                    "ArgumentExpression": {
+                                                                                        "byRefToken": null,
+                                                                                        "dotDotDotToken": null,
+                                                                                        "expression": {
+                                                                                            "Variable": {
+                                                                                                "dollar": null,
+                                                                                                "name": {
+                                                                                                    "kind": "VariableName",
+                                                                                                    "fullStart": 704,
+                                                                                                    "start": 704,
+                                                                                                    "length": 3
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    },
+                                                                    "closeParen": {
+                                                                        "kind": "CloseParenToken",
+                                                                        "fullStart": 707,
+                                                                        "start": 707,
+                                                                        "length": 1
+                                                                    }
+                                                                }
+                                                            },
+                                                            "semicolon": {
+                                                                "kind": "SemicolonToken",
+                                                                "fullStart": 708,
+                                                                "start": 708,
+                                                                "length": 1
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "ReturnStatement": {
+                                                            "returnKeyword": {
+                                                                "kind": "ReturnKeyword",
+                                                                "fullStart": 709,
+                                                                "start": 719,
+                                                                "length": 16
+                                                            },
+                                                            "expression": {
+                                                                "CallExpression": {
+                                                                    "callableExpression": {
+                                                                        "MemberAccessExpression": {
+                                                                            "dereferencableExpression": {
+                                                                                "Variable": {
+                                                                                    "dollar": null,
+                                                                                    "name": {
+                                                                                        "kind": "VariableName",
+                                                                                        "fullStart": 725,
+                                                                                        "start": 726,
+                                                                                        "length": 6
+                                                                                    }
+                                                                                }
+                                                                            },
+                                                                            "arrowToken": {
+                                                                                "kind": "ArrowToken",
+                                                                                "fullStart": 731,
+                                                                                "start": 731,
+                                                                                "length": 2
+                                                                            },
+                                                                            "memberName": {
+                                                                                "kind": "Name",
+                                                                                "fullStart": 733,
+                                                                                "start": 733,
+                                                                                "length": 15
+                                                                            }
+                                                                        }
+                                                                    },
+                                                                    "openParen": {
+                                                                        "kind": "OpenParenToken",
+                                                                        "fullStart": 748,
+                                                                        "start": 748,
+                                                                        "length": 1
+                                                                    },
+                                                                    "argumentExpressionList": {
+                                                                        "ArgumentExpressionList": {
+                                                                            "children": [
+                                                                                {
+                                                                                    "ArgumentExpression": {
+                                                                                        "byRefToken": null,
+                                                                                        "dotDotDotToken": null,
+                                                                                        "expression": {
+                                                                                            "StringLiteral": {
+                                                                                                "startQuote": null,
+                                                                                                "children": {
+                                                                                                    "kind": "StringLiteralToken",
+                                                                                                    "fullStart": 749,
+                                                                                                    "start": 749,
+                                                                                                    "length": 12
+                                                                                                },
+                                                                                                "endQuote": null
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    },
+                                                                    "closeParen": {
+                                                                        "kind": "CloseParenToken",
+                                                                        "fullStart": 761,
+                                                                        "start": 761,
+                                                                        "length": 1
+                                                                    }
+                                                                }
+                                                            },
+                                                            "semicolon": {
+                                                                "kind": "SemicolonToken",
+                                                                "fullStart": 762,
+                                                                "start": 762,
+                                                                "length": 1
+                                                            }
+                                                        }
+                                                    }
+                                                ],
+                                                "closeBrace": {
+                                                    "kind": "CloseBraceToken",
+                                                    "fullStart": 763,
+                                                    "start": 769,
+                                                    "length": 7
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "MethodDeclaration": {
+                                        "modifiers": [
+                                            {
+                                                "kind": "PublicKeyword",
+                                                "fullStart": 770,
+                                                "start": 852,
+                                                "length": 88
+                                            }
+                                        ],
+                                        "functionKeyword": {
+                                            "kind": "FunctionKeyword",
+                                            "fullStart": 858,
+                                            "start": 859,
+                                            "length": 9
+                                        },
+                                        "byRefToken": null,
+                                        "name": {
+                                            "kind": "Name",
+                                            "fullStart": 867,
+                                            "start": 868,
+                                            "length": 10
+                                        },
+                                        "openParen": {
+                                            "kind": "OpenParenToken",
+                                            "fullStart": 877,
+                                            "start": 877,
+                                            "length": 1
+                                        },
+                                        "parameters": {
+                                            "ParameterDeclarationList": {
+                                                "children": [
+                                                    {
+                                                        "Parameter": {
+                                                            "typeDeclaration": null,
+                                                            "byRefToken": null,
+                                                            "dotDotDotToken": null,
+                                                            "variableName": {
+                                                                "kind": "VariableName",
+                                                                "fullStart": 878,
+                                                                "start": 878,
+                                                                "length": 3
+                                                            },
+                                                            "equalsToken": null,
+                                                            "default": null
+                                                        }
+                                                    },
+                                                    {
+                                                        "kind": "CommaToken",
+                                                        "fullStart": 881,
+                                                        "start": 881,
+                                                        "length": 1
+                                                    },
+                                                    {
+                                                        "Parameter": {
+                                                            "typeDeclaration": {
+                                                                "QualifiedName": {
+                                                                    "globalSpecifier": null,
+                                                                    "relativeSpecifier": null,
+                                                                    "nameParts": {
+                                                                        "QualifiedNameParts": {
+                                                                            "children": [
+                                                                                {
+                                                                                    "kind": "Name",
+                                                                                    "fullStart": 882,
+                                                                                    "start": 883,
+                                                                                    "length": 12
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    }
+                                                                }
+                                                            },
+                                                            "byRefToken": null,
+                                                            "dotDotDotToken": null,
+                                                            "variableName": {
+                                                                "kind": "VariableName",
+                                                                "fullStart": 894,
+                                                                "start": 895,
+                                                                "length": 13
+                                                            },
+                                                            "equalsToken": null,
+                                                            "default": null
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        "closeParen": {
+                                            "kind": "CloseParenToken",
+                                            "fullStart": 907,
+                                            "start": 907,
+                                            "length": 1
+                                        },
+                                        "colonToken": null,
+                                        "returnType": null,
+                                        "compoundStatementOrSemicolon": {
+                                            "CompoundStatementNode": {
+                                                "openBrace": {
+                                                    "kind": "OpenBraceToken",
+                                                    "fullStart": 908,
+                                                    "start": 914,
+                                                    "length": 7
+                                                },
+                                                "statements": [
+                                                    {
+                                                        "ExpressionStatement": {
+                                                            "expression": {
+                                                                "CallExpression": {
+                                                                    "callableExpression": {
+                                                                        "MemberAccessExpression": {
+                                                                            "dereferencableExpression": {
+                                                                                "Variable": {
+                                                                                    "dollar": null,
+                                                                                    "name": {
+                                                                                        "kind": "VariableName",
+                                                                                        "fullStart": 915,
+                                                                                        "start": 925,
+                                                                                        "length": 22
+                                                                                    }
+                                                                                }
+                                                                            },
+                                                                            "arrowToken": {
+                                                                                "kind": "ArrowToken",
+                                                                                "fullStart": 937,
+                                                                                "start": 937,
+                                                                                "length": 2
+                                                                            },
+                                                                            "memberName": {
+                                                                                "kind": "Name",
+                                                                                "fullStart": 939,
+                                                                                "start": 939,
+                                                                                "length": 6
+                                                                            }
+                                                                        }
+                                                                    },
+                                                                    "openParen": {
+                                                                        "kind": "OpenParenToken",
+                                                                        "fullStart": 945,
+                                                                        "start": 945,
+                                                                        "length": 1
+                                                                    },
+                                                                    "argumentExpressionList": {
+                                                                        "ArgumentExpressionList": {
+                                                                            "children": [
+                                                                                {
+                                                                                    "ArgumentExpression": {
+                                                                                        "byRefToken": null,
+                                                                                        "dotDotDotToken": null,
+                                                                                        "expression": {
+                                                                                            "Variable": {
+                                                                                                "dollar": null,
+                                                                                                "name": {
+                                                                                                    "kind": "VariableName",
+                                                                                                    "fullStart": 946,
+                                                                                                    "start": 946,
+                                                                                                    "length": 3
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    },
+                                                                    "closeParen": {
+                                                                        "kind": "CloseParenToken",
+                                                                        "fullStart": 949,
+                                                                        "start": 949,
+                                                                        "length": 1
+                                                                    }
+                                                                }
+                                                            },
+                                                            "semicolon": {
+                                                                "kind": "SemicolonToken",
+                                                                "fullStart": 950,
+                                                                "start": 950,
+                                                                "length": 1
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "ReturnStatement": {
+                                                            "returnKeyword": {
+                                                                "kind": "ReturnKeyword",
+                                                                "fullStart": 951,
+                                                                "start": 961,
+                                                                "length": 16
+                                                            },
+                                                            "expression": {
+                                                                "CallExpression": {
+                                                                    "callableExpression": {
+                                                                        "MemberAccessExpression": {
+                                                                            "dereferencableExpression": {
+                                                                                "Variable": {
+                                                                                    "dollar": null,
+                                                                                    "name": {
+                                                                                        "kind": "VariableName",
+                                                                                        "fullStart": 967,
+                                                                                        "start": 968,
+                                                                                        "length": 6
+                                                                                    }
+                                                                                }
+                                                                            },
+                                                                            "arrowToken": {
+                                                                                "kind": "ArrowToken",
+                                                                                "fullStart": 973,
+                                                                                "start": 973,
+                                                                                "length": 2
+                                                                            },
+                                                                            "memberName": {
+                                                                                "kind": "Name",
+                                                                                "fullStart": 975,
+                                                                                "start": 975,
+                                                                                "length": 15
+                                                                            }
+                                                                        }
+                                                                    },
+                                                                    "openParen": {
+                                                                        "kind": "OpenParenToken",
+                                                                        "fullStart": 990,
+                                                                        "start": 990,
+                                                                        "length": 1
+                                                                    },
+                                                                    "argumentExpressionList": {
+                                                                        "ArgumentExpressionList": {
+                                                                            "children": [
+                                                                                {
+                                                                                    "ArgumentExpression": {
+                                                                                        "byRefToken": null,
+                                                                                        "dotDotDotToken": null,
+                                                                                        "expression": {
+                                                                                            "StringLiteral": {
+                                                                                                "startQuote": null,
+                                                                                                "children": {
+                                                                                                    "kind": "StringLiteralToken",
+                                                                                                    "fullStart": 991,
+                                                                                                    "start": 991,
+                                                                                                    "length": 12
+                                                                                                },
+                                                                                                "endQuote": null
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    },
+                                                                    "closeParen": {
+                                                                        "kind": "CloseParenToken",
+                                                                        "fullStart": 1003,
+                                                                        "start": 1003,
+                                                                        "length": 1
+                                                                    }
+                                                                }
+                                                            },
+                                                            "semicolon": {
+                                                                "kind": "SemicolonToken",
+                                                                "fullStart": 1004,
+                                                                "start": 1004,
+                                                                "length": 1
+                                                            }
+                                                        }
+                                                    }
+                                                ],
+                                                "closeBrace": {
+                                                    "kind": "CloseBraceToken",
+                                                    "fullStart": 1005,
+                                                    "start": 1011,
+                                                    "length": 7
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            ],
+                            "closeBrace": {
+                                "kind": "CloseBraceToken",
+                                "fullStart": 1012,
+                                "start": 1014,
+                                "length": 3
+                            }
+                        }
+                    }
+                }
+            }
+        ],
+        "endOfFileToken": {
+            "kind": "EndOfFileToken",
+            "fullStart": 1015,
+            "start": 1015,
+            "length": 0
+        }
+    }
+}
