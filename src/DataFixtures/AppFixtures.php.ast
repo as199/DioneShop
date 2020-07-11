@@ -1584,8 +1584,8 @@
         "endOfFileToken": {
             "kind": "EndOfFileToken",
             "fullStart": 774,
-            "start": 776,
-            "length": 2
+            "start": 774,
+            "length": 0
         }
     }
 }

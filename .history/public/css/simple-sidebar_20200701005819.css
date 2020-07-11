@@ -1,0 +1,183 @@
+
+
+body {
+  font-size:25px;
+   /*overflowpx-x: hidden;*/
+  background-color: #FAF1E6;
+  /*background-image: url('../images/544750.jpg');*/
+}
+#showquestion{
+  overflow: hidden;
+}
+
+.sticky {
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+
+    .sticky+.content {
+      padding-top: 102px;
+    }
+
+    .font {
+      font-size: 20px;
+    }
+
+span{
+  font-size: 15px;
+font-weight: bold;
+color: red;
+}
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -15rem;
+  transition: margin .25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+  height: 180px;
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+.btngener{
+
+    height: 35px;
+    width: 25px;
+    margin-left: 20px;
+}
+#divgener{
+height: 100px;
+width: 100%;
+margin-top: 15px;
+}
+#moncerclediv2c1 {
+
+      border-radius: 50%;
+      width: 40%;
+
+    }
+
+#moncerclediv2c2{
+  border-radius: 50%;
+
+  width: 76%;
+height: 139px;
+    }
+    /* #divgener{
+      height:150px;
+    } */
+
+    #preview {
+      margin-left: 16px;
+    }
+     #preview1 img {
+      width: 200px;
+height: 140px;
+border-radius: 50%;
+
+
+    }
+
+    #preview img {
+      border-radius: 50%;
+      width: 180px;
+      height: 155px;
+      border-radius: 50%;
+      float: right;
+
+    }
+    #inpgener {
+    width: 45%;
+    height: 20px;
+    margin-left: 52px;
+}
+#checkgener {
+    width: 20px;
+    height: 20px;
+}
+.deletgener {
+    width: 22px;
+    height: 25px;
+    /* background-image: url(./img/icones/ic-supprimer.png); */
+    background-size: cover;
+}
+label{
+  font-size: larger;
+}
+.radio-item {
+  /* display: inline-block; */
+  position: relative;
+  padding: 0 6px;
+  margin: 10px 0 0;
+}
+
+
+.radio-item input[type='radio'] {
+  display: none;
+}
+
+.radio-item label {
+  color: #666;
+  font-weight: normal;
+}
+
+.radio-item label:before {
+  content: " ";
+  display: inline-block;
+  position: relative;
+  top: 5px;
+  margin: 0 5px 0 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 11px;
+  border: 2px solid #004c97;
+  background-color: transparent;
+}
+
+.radio-item input[type=radio]:checked + label:after {
+  border-radius: 11px;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  top: 9px;
+  left: 10px;
+  content: " ";
+  display: block;
+  background: #004c97;
+}
+
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+  #divgener{
+  height:150px;
+  width:50%;
+  overflow:scroll ;
+}
+
+}
+
