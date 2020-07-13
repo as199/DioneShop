@@ -13,7 +13,7 @@
       <th>Prix</th>
       <th>Quantité</th>
       <th>Total</th>
-      <th colspan="3">Action</th>
+      <th></th>
     </tr>
   </thead>
   <tbody>
@@ -30,13 +30,6 @@
           btn-primary btn-sm">
           <i class="fa fa-plus" aria-hidden="true"></i>
         </a>&nbsp;&nbsp;
-        {% if panier.quantity > 1 %}
-        <a href="{{path('cart_reduct', {'id':panier.product.id })}}"
-          title="Réduire" id="reduct"
-          class="btn btn-secondary btn-sm">
-          <i class="fa fa-minus" aria-hidden="true"></i>
-        </a>&nbsp;&nbsp;
-        {% endif %}
         <a href="{{path('cart_remove', {'id':panier.product.id })}}"
           title="Suprimer ma commande" class="btn
           btn-danger btn-sm">
@@ -51,8 +44,7 @@
       <td colspan="3" class="text-right">Total :</td>
       <strong><td>{{ total}}</td></strong>
       <td>
-        <a href="{{path('cart_valider')}}" title="Valider ma commande"
-          class="btn btn-success btn-sm">
+        <a href="#" title="Valider ma commande" class="btn btn-success btn-sm">
           <i class="fa fa-check" style="font-size: 25px;color:green"
             aria-hidden="true"></i>
         </a>
@@ -67,16 +59,16 @@
 {% block javascripts %}
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
-  /* pour gerer le bouton plus */
+  /* pour gerer le bouton edit */
   function AddQuantity(event) {
     event.preventDefault();
 
-    let url = this.href;
+    let url = form.attr("action");
     $.ajax({
-      url: url,
+      url:url,
       cache: false,
       success: function (response) {
-        window.location.href = "/panier"
+        window.location.href = "/login"
       }
     });
     return false;
@@ -85,23 +77,5 @@
   document.querySelectorAll("a#add").forEach(function (lien) {
       lien.addEventListener("click", AddQuantity);
     });
-     /* pour gerer le bouton moins */
-      function ReductQuantity(event) {
-        event.preventDefault();
-
-        let url = this.href;
-        $.ajax({
-          url: url,
-          cache: false,
-          success: function (response) {
-            window.location.href = "/panier"
-          }
-        });
-        return false;
-      }
-
-      document.querySelectorAll("a#reduct").forEach(function (lien) {
-        lien.addEventListener("click", ReductQuantity);
-      });
 </script>
 {% endblock %}

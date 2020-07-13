@@ -2,13 +2,11 @@
 
 namespace App\Controller;
 
-use App\Entity\Client;
-use App\Form\ClientType;
+
 use App\service\CartService;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Routing\Annotation\Route;
 use Knp\Component\Pager\PaginatorInterface;
-use Symfony\Component\HttpFoundation\Request;
 
 class CartController extends AbstractController
 {
@@ -34,7 +32,7 @@ class CartController extends AbstractController
         return $this->redirectToRoute('product_index');
     }
     /**
-     * @Route("/panier/reduct/{id}", name="cart_reduct")
+     * @Route("/panier/add/{id}", name="cart_reduct")
      */
     public function reduct($id, CartService $cartService)
     {
@@ -50,22 +48,5 @@ class CartController extends AbstractController
     {
         $cartService->remove($id);
         return $this->redirectToRoute('cart_index');
-    }
-
-    /**
-     * @Route("/panier/valider", name="cart_valider")
-     */
-    public function valider(Client $client = null, CartService $cartService, Request $request)
-    {
-        $client = new Client();
-        $form = $this->createForm(ClientType::class, $client);
-        $form->handleRequest($request);
-
-
-        return $this->render('cart/valider.html.twig', [
-            'clients' => $form->createView(),
-            'paniers' =>  $cartService->getallPanier(),
-            'total' =>  $cartService->total()
-        ]);
     }
 }

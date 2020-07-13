@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+{% block title %}Validation
+{% endblock %}
+{% block body %}
+<h1>Veuillez vous identifier</h1>
+<div class="container">
+  {{form_start(clients)}}
+  {{form_row(clients.prenom,{'attr':{'placeholder':'votre prénom'}})}}
+  {{form_row(clients.nom,{'attr':{'placeholder':'votre nom'}})}}
+  {{form_row(clients.adresse,{'attr':{'placeholder':'votre adresse'}})}}
+  {{form_row(clients.telephone,{'attr':{'placeholder':'votre téléphone'}})}}
+  {{form_row(clients.email,{'attr':{'placeholder':'votre email'}})}}
+  {{form_row(clients.dateNaissance)}}
+  <button type="submit" class="btn btn-primary">Valider</button>
+  {{form_end(clients)}}
+</div>
+{% endblock %}

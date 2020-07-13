@@ -13,7 +13,7 @@
       <th>Prix</th>
       <th>Quantité</th>
       <th>Total</th>
-      <th colspan="3">Action</th>
+      <th>Action</th>
     </tr>
   </thead>
   <tbody>
@@ -30,13 +30,10 @@
           btn-primary btn-sm">
           <i class="fa fa-plus" aria-hidden="true"></i>
         </a>&nbsp;&nbsp;
-        {% if panier.quantity > 1 %}
         <a href="{{path('cart_reduct', {'id':panier.product.id })}}"
-          title="Réduire" id="reduct"
-          class="btn btn-secondary btn-sm">
+          title="Réduire" id="reduct" class="btn btn-secondary btn-sm">
           <i class="fa fa-minus" aria-hidden="true"></i>
         </a>&nbsp;&nbsp;
-        {% endif %}
         <a href="{{path('cart_remove', {'id':panier.product.id })}}"
           title="Suprimer ma commande" class="btn
           btn-danger btn-sm">
@@ -51,8 +48,7 @@
       <td colspan="3" class="text-right">Total :</td>
       <strong><td>{{ total}}</td></strong>
       <td>
-        <a href="{{path('cart_valider')}}" title="Valider ma commande"
-          class="btn btn-success btn-sm">
+        <a href="#" title="Valider ma commande" class="btn btn-success btn-sm">
           <i class="fa fa-check" style="font-size: 25px;color:green"
             aria-hidden="true"></i>
         </a>

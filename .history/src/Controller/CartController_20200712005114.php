@@ -55,7 +55,7 @@ class CartController extends AbstractController
     /**
      * @Route("/panier/valider", name="cart_valider")
      */
-    public function valider(Client $client = null, CartService $cartService, Request $request)
+    public function valider(Client $client = null, Request $request)
     {
         $client = new Client();
         $form = $this->createForm(ClientType::class, $client);
@@ -63,9 +63,7 @@ class CartController extends AbstractController
 
 
         return $this->render('cart/valider.html.twig', [
-            'clients' => $form->createView(),
-            'paniers' =>  $cartService->getallPanier(),
-            'total' =>  $cartService->total()
+            'clients' => $form->createView()
         ]);
     }
 }

@@ -1,0 +1,50 @@
+{% extends 'base.html.twig' %}
+{% block title %}Validation
+{% endblock %}
+{% block body %}
+<h1>Proceder à la validation de la commande</h1>
+<div class="form-row">
+  <div class="col-md-4">
+    {{form_widget(clients)}}
+  </div>
+  <div class="col-md-8">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Produit</th>
+          <th>Prix</th>
+          <th>Quantité</th>
+          <th>Total</th>
+
+        </tr>
+      </thead>
+      <tbody>
+        {% for panier in paniers %}
+        <tr>
+          <input type="hidden" id='id' value="{{panier.product.id}}">
+          <td>{{ panier.product.title}}</td>
+          <td>{{ panier.product.price}}</td>
+          <td>{{ panier.quantity}}</td>
+          <td>{{ panier.product.price * panier.quantity }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3" class="text-right">Total :</td>
+          <strong>
+            <td>{{ total}}</td>
+          </strong>
+          <td>
+            <a href="{{path('cart_valider')}}" title="Valider ma commande"
+              class="btn btn-success btn-sm">
+              <i class="fa fa-check" style="font-size: 25px;color:green"
+                aria-hidden="true"></i>
+            </a>
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+</div>
+{% endblock %}

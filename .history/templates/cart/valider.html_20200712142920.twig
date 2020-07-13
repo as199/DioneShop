@@ -1,0 +1,51 @@
+{% extends 'base.html.twig' %}
+{% block title %}Validation
+{% endblock %}
+{% block body %}
+<h1>Proceder à la validation de la commande</h1>
+<div class="form-row">
+  <div class="col-md-4">
+    {{form_start(clients)}}
+    {{form_row(clients.prenom,{'attr':{'placeholder':'votre prénom'}})}}
+    {{form_row(clients.nom,{'attr':{'placeholder':'votre pnom'}})}}
+    {{form_row(clients.adresse,{'attr':{'placeholder':'votre adresse'}})}}
+    {{form_row(clients.telephone,{'attr':{'placeholder':'votre téléphone'}})}}
+    {{form_row(clients.email,{'attr':{'placeholder':'votre email'}})}}
+    {{form_row(clients.dateNaissance)}}
+    {{form_end(clients)}}
+  </div>
+  <div class="col-md-8">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Produit</th>
+          <th>Prix</th>
+          <th>Quantité</th>
+          <th>Total</th>
+
+        </tr>
+      </thead>
+      <tbody>
+        {% for panier in paniers %}
+        <tr>
+          <input type="hidden" id='id' value="{{panier.product.id}}">
+          <td>{{ panier.product.title}}</td>
+          <td>{{ panier.product.price}}</td>
+          <td>{{ panier.quantity}}</td>
+          <td>{{ panier.product.price * panier.quantity }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3" class="text-right">Total :</td>
+          <strong>
+            <td>{{ total}}</td>
+          </strong>
+
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+</div>
+{% endblock %}
